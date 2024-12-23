@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+ */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5f0; /* Soft background color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Recipe Image */
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  color: hsl(20deg 6% 19.61%); /* Purple color */
+  margin-bottom: 10px;
+  
+}
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 7px;
+  margin-top: 20px;
+  color: hsl(13.47deg 21.03% 45.69%);
+}
+/* Lists */
+.list-group {
+  background-color: hsl(322.5deg 100% 98.43%);
+}
+.list-group h2{
+    color: hsl(332.94deg 34.23% 29.22%);
+}
+ul {
+  list-style-type: disc;
+  margin: 10px 0 11px 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 10px 0 10px 20px;
+}
+
+/* Nutrition Table */
+table {
+  width: 100%;
+}
+
+
+table th {
+  color: #000000;
+  padding: 10px;
+}
+
+table td {
+    crolo:hsl(13.47deg 21.03% 45.69%);
+    padding: 10px;
+}
